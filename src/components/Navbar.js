@@ -9,11 +9,11 @@ const Nav = styled.nav`
   height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2 rem;
+  padding: 1rem 2rem;
   z-index: 100;
   position: fixed;
   width: 100%;
-  background: #ba881d;
+  background: #000d1a;
 `;
 
 const NavLink = css`
@@ -21,14 +21,14 @@ const NavLink = css`
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    heigt: 100%
+    heigt: 100%;
     cursor: pointer;
     text-decoration: none;
 `;
 
 const Logo = styled(Link)`
   ${NavLink}
-  font-style: italic;
+  font-style: italic
 `;
 
 const MenuBars = styled(FaBars)`
@@ -58,7 +58,7 @@ const NavMenu = styled.div`
 `;
 
 const NavMenuLinks = styled(Link)`
-  ${NavLink};
+  ${NavLink}
 `;
 
 const NavBtn = styled.div`
