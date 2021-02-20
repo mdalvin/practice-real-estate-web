@@ -14,7 +14,7 @@ const Nav = styled.nav`
   position: fixed;
   width: 100%;
   background: #000d1a;
-`;
+`
 
 const NavLink = css`
     color: #fff;
